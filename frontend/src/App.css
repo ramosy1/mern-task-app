@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body > #root > div {
+  height: 100vh;
+}
+
+/* -------------------------SWITCH TOGGLE BUTTON------------------------- */
+
+.switch {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  max-width: 1200px;
+  padding: 2rem 3rem;
+}
+
+.switch label {
+  padding:10px;
+}
+
+.light {
+  color: #000;
+}
+
+.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+/* -------------------------PAGES------------------------- */
+/* -------------------------HOME PAGE ------------------------- */
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dark .hero-section {
+  background-color: #000;
+}
+
+.hero-container {
+  max-width: 1200px;
+  display: flex;
+  margin: 50px;
+}
+
+.hero-content-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 25px;
+  padding: 25px;
+  width: 40%;
+  opacity: 0.925;
+}
+
+.hero-content-container h1 {
+  font-size: 2.5rem;
+}
+
+.hero-content-container p {
+  font-size: 1.25rem;
+  margin: 20px 0px;
+  line-height: 1.5;
+}
+
+.hero-btn-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-btn span {
+  padding: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #92d1d4;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark .hero-btn span {
+  background-color: #f6ff71;
+}
+
+.hero-btn span a:-webkit-any-link {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.coach-image-container {
+  width: 50%;
+}
+
+.coach-image-container img {  
+  width: 90%;
+  margin: 50px auto;
+  padding: 10px;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 10px -10px #f6ff71;
+  background-color: #000;
+}
+
+
+@media screen and (max-width: 1130px) {
+
+.hero-content-container {
+    width: 50%;
+    margin: 30px;
+}
+
+.coach-image-container {
+    width: 40%;
+}
+
+.coach-image-container img {
+    margin: 60px auto;
+}
+}
+
+@media screen and (max-width: 1060px) {
+
+.hero-content-container {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.coach-image-container {
+    width: 40%;
+}
+
+.coach-image-container img {
+    margin: 95px auto;
+}
+}
+
+@media screen and (max-width: 769px) {
+
+.hero-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+.hero-section {
+    padding: 25px;
+}
+
+.hero-content-container {
+    width: 100%;
+    margin: 30px;
+}
+
+.coach-image-container {
+    width: 70%;
+}
+
+.coach-image-container img {
+    margin: 15px auto;
+}
+
+.hero-question-container {
+    margin: 25px 25px -25px 25px;
+}
+
+.hero-question {
+    font-size: 13px;
+} 
+}
+
+
+/* -------------------------TODO PAGE & MODE------------------------- */
+
+.container {
+  max-width: 600px;
+  margin: 70px auto;
+  padding: 0 2rem;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.dark h1 {
+  color: #fff;
+}
+
+.add-section {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.dark input {
+  border-radius: 5px;
+}
+
+.add {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.item {
+  position: relative;
+  margin-top: 1rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.logout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.logout-btn button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* -------------------------PAGES------------------------- */
+
+/* LOGIN and SIGNUP PAGES CSS */
+
+.container-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 70px auto;
+}
+
+.container-auth form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 10px;
+  background-color: #333;
+  max-width: 600px;
+  gap: 25px;
+  border-radius: 5px;
+}
+
+.container-auth input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.container-auth button{
+  padding: 10px;
+  width: 50%;
+  Margin: 0 auto;
+  color: #000;
+  background-color: #92d1d4;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark .container-auth button{
+  color: #000;
+  background-color: #f6ff71;
+  text-transform: uppercase;
+}
+
+.container-auth p{
+  color: red;
+  font-size: 12px;
+  text-align: center;
+} 
+
+.container-auth span{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+a:-webkit-any-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 769px) {
+  .container-auth form {
+      padding: 25px;
+  }
+}
+
+@media screen and (max-width: 469px) {
+  .container-auth form {
+      max-width: 400px;
+  }
+}
