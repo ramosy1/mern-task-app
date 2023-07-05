@@ -15,7 +15,7 @@ const navigate = useNavigate();
 const onSubmit = async (e) => {
     e.preventDefault();
     try {
-        const response = await axios.post("http://localhost:3001/auth/signup", {
+        const response = await axios.post("https://mern-task-app-backend-t5ks.onrender.com/auth/signup", {
             username,
             password
     });
