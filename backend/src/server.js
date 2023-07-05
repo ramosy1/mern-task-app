@@ -9,11 +9,10 @@ const routes = require('../routes/todo-routes');
 
 const app = express();
 app.use(express.json());
-app.use(cors({
-  origin: "https://mern-task-app-sxyd.onrender.com"
-}));
+app.use(cors());
 app.get("/", (req, res) => {
     res.setHeader("Access-Control-Allow-Credentials", "true");
+    res.send("Backend is running");
 });
 
 app.use(morgan('tiny'));
