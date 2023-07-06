@@ -3,7 +3,7 @@ A responsive and interactive full-stack web application that enables users to ef
 
 **Link to project:** https://mern-task-app-sxyd.onrender.com
 
-<img src="../../images/MERN_Task_App.gif" alt="task app gif" title="MERN Task App" width="70%" height="70%">
+<img src="frontend/src/images/MERN_Task_App.gif" alt="task app gif" title="MERN Task App" width="70%" height="70%">
 
 ## How It’s Made: ##
 MongoDB, a NoSQL database, was used to store and retrieve the todo items. On the backend, I used Express.js, framework for building RESTful APIs, to handle the HTTP requests and communicate with the database. React.js, was used for the frontend to create dynamic and reusable components to handle various aspects of the user interface. And finally, Node.js provided the runtime environment for running the server-side code.
