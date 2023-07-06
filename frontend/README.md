@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+##Task App
+A responsive and interactive full-stack web application that enables users to efficiently manage their tasks, track progress, and improve productivity. Built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), the app offers various features including user registration, login authentication, and personalized to-do lists. Users can create, update, and delete to-do items with real-time updates that reflect changes instantly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Link to project:** https://mern-task-app-sxyd.onrender.com
 
-## Available Scripts
+<img src="../images/MERNTask_App.gif" alt="task app gif" title="MERN Task App" width="70%" height="70%">
 
-In the project directory, you can run:
+##How It’s Made:
+MongoDB, a NoSQL database, was used to store and retrieve the todo items. On the backend, I used Express.js, framework for building RESTful APIs, to handle the HTTP requests and communicate with the database. React.js, was used for the frontend to create dynamic and reusable components to handle various aspects of the user interface. And finally, Node.js provided the runtime environment for running the server-side code.
 
-### `npm start`
+User authentication was implemented using JWT (JSON Web Tokens). Additionally, sensitive user data, such as passwords, were hashed using bcrypt before being stored in the database to enhance security.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tech used: MongoDB, Express, React, Node, JWT (JSON Web Tokens), and Bcrypt)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Link to code:** https://github.com/ramosy1/mern-task-app
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##Features
+Users can register and log in to access their personalized todo lists. They can create new todo items by providing a description and save them to their list. The app also allows users to update the content of existing todo items as they progress with their tasks. Additionally, users can delete any completed or no longer relevant todo items. The app provides a user-friendly interface for managing tasks effectively.
