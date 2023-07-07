@@ -259,7 +259,13 @@ input {
   cursor: pointer;
 }
 
+.light .logout-btn button {
+  background-color: #92d1d4;
+}
 
+.dark .logout-btn button {
+  background-color: #f6ff71;
+}
 
 /* -------------------------PAGES------------------------- */
 
